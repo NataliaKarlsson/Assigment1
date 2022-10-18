@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,13 @@
     <title>Todo list</title>
     <link rel="stylesheet" href="main.css" />
 </head>
+
 <body>
     <header>
         <h1>Todo list</h1>
         <form id="new-ex-Form">
-            <input
-                type="text"
-                id="todoInput"
-                placeholder="What do you have to do? " />
-            <input
-                type="submit"
-                id="new-ex-submit"
-                value="Add task" />
+            <input type="text" id="todoInput" placeholder="What do you have to do? " />
+            <input type="submit" id="new-ex-submit" value="Add task" />
         </form>
     </header>
     <main>
@@ -26,7 +22,8 @@
             <h2>Tasks</h2>
 
             <div id="tasks">
-                <div class="tasks">
+
+                <!-- <div class="task">
                     <div class="content">
                         <input
                             type="text"
@@ -40,10 +37,25 @@
                         <button class="delete">Delete</button>
                     </div>
                 </div>   
+                <div class="task">
+                    <div class="content">
+                        <input
+                            type="text"
+                            class="text"
+                            value="My task"
+                            readonly
+                        />
+                    </div>                    
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div>    -->
             </div>
         </section>
-            
+
     </main>
     <script src="main.js"></script>
 </body>
+
 </html>
