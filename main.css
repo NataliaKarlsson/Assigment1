@@ -5,10 +5,12 @@
     --gray: #687280;
     --light: #EEE;
     --purple: #8B5Cf6;
+    --pink: #EC4899;
 
 }
 
 * {
+    
     box-sizing: border-box;
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
@@ -90,11 +92,11 @@ main {
     margin: 0 auto;
 }
 
-.task-list {
+.task-List {
     padding: 1rem;
 }
 
-.task-list h2 {
+.task-List h2 {
     font-size: 1.5rem;
     font-weight: 300;
     color: var(--gray);

@@ -35,8 +35,7 @@ window.addEventListener('load', () => {
         task_edit_el.innerHTML = "Edit";
 
 
-        const task_delete_el = document.createElement
-            ("button");
+        const task_delete_el = document.createElement("button");
         task_delete_el.classList.add("delete");
         task_delete_el.innerHTML = "Delete";
         task_actions_el.appendChild(task_edit_el);
